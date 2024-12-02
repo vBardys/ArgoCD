@@ -18,7 +18,7 @@ spec:
         app: frontend
     spec:
       containers:
-      - image: bardys/frontend
+      - image: bardys/frontend:RC-15
         name: frontend
         ports:
         - containerPort: 5000
