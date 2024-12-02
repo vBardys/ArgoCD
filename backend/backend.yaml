@@ -18,7 +18,7 @@ spec:
         app: backend
     spec:
       containers:
-      - image: bardys/backend
+      - image: bardys/backend:RC-13
         name: backend
         ports:
         - containerPort: 5001
