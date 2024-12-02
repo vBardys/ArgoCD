@@ -23,7 +23,7 @@ spec:
         ports:
         - containerPort: 5000
         resources: {}
-      - env:
+        env:
           - name: BACKEND_URL
             value: http://backend-service:5001
         
