@@ -4,13 +4,13 @@ metadata:
   name: frontend
   namespace: argocd
 spec:
-project: default
-source:
-  repoURL: 'https://github.com/vBardys/ArgoCD'
-  path: backend
-  targetRevision: main
-destination:
-  server: 'https://kubernetes.default.svc'
-  namespace: default
-syncPolicy:
-  automated: {}
+  project: default
+  source:
+    repoURL: 'https://github.com/vBardys/ArgoCD'
+    path: backend
+    targetRevision: main
+  destination:
+    server: 'https://kubernetes.default.svc'
+    namespace: default
+  syncPolicy:
+    automated: {}
